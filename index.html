@@ -21,61 +21,70 @@
     </head>
     <body>
         <!-- Menu -->
-        <nav>
-            <a>
-                <p> apt-get contratar
-                    <span>NERDS DEV</span>
-                </p>
+        <nav id="menu" class="hide">
+            <a id="logo">
+                <i class="fa fa-arrow-right"></i>&nbsp;
+                <span class="green">~</span>&nbsp;
+                <span>apt-get contratar</span>&nbsp;
+                <span class="green">NERDS DEV</span>
             </a>
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="#home">
-                        <span>ND </span><span>Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#servicos">
-                        <span>ND </span>Serviços
-                    </a>
-                </li>
-                <li>
-                    <a href="#equipe">
-                        <span>ND </span>Equipe
-                    </a>
-                </li>
-                <li>
-                    <a href="#depoimentos">
-                        <span>ND </span><span>Depoimentos</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#planos">
-                        <span>ND </span><span>Planos</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#contato">
-                        <span>ícone </span><span>Contato</span>
-                    </a>
-                </li>
-            </ul>
+
+            <div id="items">
+                <ul>
+                    <li>
+                        <a href="#home">
+                            <span class="pink">ND</span>&nbsp;
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#servicos">
+                            <span class="blue">ND</span>&nbsp;
+                            <span>Serviços</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#equipe">
+                            <span class="green">ND</span>&nbsp;
+                            <span>Equipe</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#depoimentos">
+                            <span class="red">ND</span>&nbsp;
+                            <span>Depoimentos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#planos">
+                            <span class="orange">ND</span>&nbsp;
+                            <span>Planos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contato">
+                            <i class="fa fa-envelope-o yellow"></i>&nbsp;
+                            <span>Contato</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
         <!-- Cabeçalho -->
         <header id="home">
-            <div>
-                <h1>
+            <div id="texto-home">
+                <h1 id="texto-home-lg">
                     <span>MEU NOME É NERD,</span>
-                    <span>
+                    <span class="dark-yellow">
                         <b> NERDS DEVS.</b>
                     </span>
                 </h1>
-                <p>Nerds com permissão
-                    <span>
-                        <b>777</b>
-                    </span> para desenvolver.
+                <hr id="texto-home-hr">
+                <p id="texto-home-mg">
+                    Nerds com permissão<b>&nbsp;777&nbsp;</b>para desenvolver.
                 </p>
-                <a href="#servicos" target="_blank">
+                <a href="#servicos" target="_blank" class="btn">
                     Conheça
                 </a>
             </div>
@@ -380,7 +389,6 @@
         </footer>
 
         <!-- Javascripts -->
-        <script src="js/main.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"
                 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
                 crossorigin="anonymous">
@@ -391,5 +399,6 @@
         </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.js"></script>
         <script src="plugins/wow/wow.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
