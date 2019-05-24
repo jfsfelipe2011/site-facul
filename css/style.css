@@ -103,9 +103,9 @@ footer {
 /* menu */
 #menu {
     width: 100%;
-    height: 60px;
-    padding-right: 15px;
-    padding-left: 15px;
+    height: 9%;
+    padding-right: 1%;
+    padding-left: 1%;
     margin-right: auto;
     margin-left: auto;
     background: #141418;
@@ -124,20 +124,29 @@ footer {
 }
 
 #logo {
+    width: 30%;
+    height: 100%;
     color: #eeeeee;
     float: left;
     font-weight: bold;
-    margin-top: 2%;
     margin-left: 1%;
+    padding-top: 1.8%;
+}
+
+#logo a {
+    width: 100%;
+    height: 20%;
 }
 
 #items {
-    width: 60%;
-    height: auto;
+    width: 68%;
+    height: 100%;
     float: right;
 }
 
 #items ul {
+    width: 100%;
+    height: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -146,15 +155,19 @@ footer {
 }
 
 #items li {
+    width: 16%;
+    height: 100%;
     float: left;
 }
 
 #items li a {
+    width: 100%;
+    height: 100%;
     display: block;
-    color: white;
+    color: #eeeeee;
     text-align: center;
-    padding: 22px 12px;
     text-decoration: none;
+    padding-top: 15%;
 }
 
 #items li a:hover {
@@ -196,7 +209,7 @@ footer {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
+    width: 80%;
     height: 257px;
     margin-top: -138.5px;
     color: #fff;
@@ -221,31 +234,42 @@ footer {
 
 /* Serviços */
 #servicos {
-    width: 90%;
+    width: 100%;
     height: 100%;
-    padding-left: 1%;
-    padding-right: 1%;
-    margin: auto;
     padding-top: 5%;
+    margin-right: -10%;
+}
+
+.servicos-row {
+    display: block;
+    width: 100%;
+    height: 47%;
 }
 
 .servicos-blocos {
-    width: 30%;
-    height: 40%;
-    text-align: center;
     float: left;
-    padding: 1%;
+    width: 30%;
+    height: 100%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    text-align: center;
 }
 
 .servicos-blocos h2 {
+    width: 100%;
+    height: 10%;
     font-weight: unset;
-    font-size: 2em;
+}
+
+.servicos-blocos p {
+    width: 100%;
+    height: auto;
+    font-weight: unset;
 }
 
 .icone-blocos {
     width: 35%;
     height: 45%;
-    background-color: red;
 }
 
 /* Equipe */
@@ -259,33 +283,32 @@ footer {
 }
 
 #container-imagem-equipe {
-    width: 22%;
-    height: 35%;
-    margin-left: 7%;
-    padding-top: 5%;
+    width: 28%;
+    height: 100%;
     float: left;
 }
 
 #imagem-equipe {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin-top: 20%;
+    margin-left: 5%;
 }
 
 #descricao-equipe {
-    width: 60%;
-    height: 35%;
-    margin-left: 7%;
-    padding-top: 5%;
+    width: 70%;
+    height: 75%;
     float: left;
+    margin-top: 6%;
 }
 
 #descricao-equipe i {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 #descricao-equipe h1 {
     font-weight: unset;
-    font-size: 2.2em;
+    font-size: 2em;
 }
 
 #descricao-equipe ul {
@@ -293,8 +316,8 @@ footer {
 }
 
 #descricao-equipe ul li {
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 /* Depoimentos */
@@ -308,29 +331,28 @@ footer {
     top: -8px;
 }
 
-.item {
-    padding-top: 12%;
-    width: 40%;
-    margin: auto;
+#depoimentos-carousel {
+    width: 100%;
+    height: 100%;
 }
 
-.item p {
-    font-weight: bold;
+.item {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    padding-top: 10%;
 }
 
 /* Planos */
 #planos {
     width: 100%;
-    height: 100%;
-    position: relative;
-    left: -8px;
-    top: -8px;
-    padding-top: 2%;
+    height: auto;
+    padding-top: 1%;
 }
 
 .cd-pricing-container {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: auto;
 }
 
 .cd-pricing-header h2 {
@@ -352,22 +374,25 @@ footer {
 
 /* Contato */
 #contato {
+    background-color: #f7f7f7;
     width: 100%;
     height: 75%;
     text-align: center;
-    padding-top: 6%;
+    padding-top: 5%;
 }
 
 #icone-mensagem {
     margin: auto;
     background-color: #009688;
-    width: 70px;
-    height: 70px;
+    width: 4%;
+    height: 10%;
     border: 1px solid transparent;
     border-radius: 50px;
 }
 
 #icone-mensagem a i {
+    width: 100%;
+    height: 100%;
     color: #eeeeee;
     font-size: 1.9em;
     padding-top: 30%;
@@ -375,8 +400,8 @@ footer {
 
 input[type=text] {
     width: 45%;
-    padding: 12px 20px;
-    margin: 8px 15px;
+    padding: 2% 2%;
+    margin: 2% 2%;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -386,8 +411,8 @@ input[type=text] {
 input[type=email],
 select {
     width: 95%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 2% 2%;
+    margin: 2% 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -396,9 +421,10 @@ select {
 
 input[type=submit] {
     width: 25%;
+    height: 5%;
     background-color: #009688;
     color: white;
-    padding: 20px 20px;
+    padding: 2% 2%;
     margin: auto;
     border: none;
     border-radius: 4px;
@@ -407,8 +433,8 @@ input[type=submit] {
 
 textarea {
     width: 95%;
-    height: 120px;
-    padding: 12px 20px;
+    height: 20%;
+    padding: 2% 2%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -418,22 +444,18 @@ textarea {
 
 #contato-form {
     width: 50%;
-    height: 70%;
+    height: 60%;
     margin: auto;
     border-radius: 5px;
     background-color: #f7f7f7;
-    padding: 20px;
+    padding: 3%;
 }
 
 /* Footer */
 footer {
     width: 100%;
-    height: 18px;
-    margin-top: 6%;
+    height: 5%;
     background-color: #141418;
-    position: relative;
-    right: 0;
-    left: -8px;
-    top: -40px;
     text-align: center;
+    margin-left: -1%;
 }
