@@ -107,7 +107,7 @@ footer {
 /* menu */
 #menu {
     width: 100%;
-    height: 9%;
+    height: auto;
     padding-right: 1%;
     padding-left: 1%;
     margin-right: auto;
@@ -130,7 +130,7 @@ footer {
     float: left;
     font-weight: bold;
     margin-left: 1%;
-    padding-top: 1.8%;
+    padding-top: 1.2%;
 }
 
 #logo a {
@@ -167,7 +167,8 @@ footer {
     color: #eeeeee;
     text-align: center;
     text-decoration: none;
-    padding-top: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 #menu-items li a:hover {
@@ -283,13 +284,13 @@ footer {
 }
 
 #equipe-container-imagem {
-    width: 28%;
-    height: 100%;
+    width: 22%;
+    height: 80%;
     float: left;
 }
 
 #equipe-imagem {
-    width: 80%;
+    width: 70%;
     height: 80%;
     margin-top: 20%;
     margin-left: 5%;
@@ -346,8 +347,8 @@ footer {
 /* Planos */
 #planos {
     width: 100%;
-    height: auto;
-    padding-top: 1%;
+    height: 100%;
+    padding-top: 0.1%;
 }
 
 .cd-pricing-container {
@@ -356,36 +357,39 @@ footer {
 }
 
 .cd-pricing-header h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .cd-value {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 .cd-currency,
 .cd-duration {
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .cd-pricing-features li {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 /* Contato */
 #contato {
     background-color: #f7f7f7;
     width: 100%;
-    height: 75%;
+    height: 82%;
     text-align: center;
-    padding-top: 5%;
+    position: relative;
+    left: -8px;
+    top: -8px;
+    padding-top: 1%;
 }
 
 #contato-icone-mensagem {
     margin: auto;
     background-color: #009688;
-    width: 4%;
-    height: 10%;
+    width: 50px;
+    height: 50px;
     border: 1px solid transparent;
     border-radius: 50px;
 }
@@ -395,7 +399,7 @@ footer {
     height: 100%;
     color: #eeeeee;
     font-size: 1.9em;
-    padding-top: 30%;
+    padding-top: 12px;
 }
 
 input[type=text] {
@@ -454,8 +458,12 @@ textarea {
 /* Footer */
 footer {
     width: 100%;
-    height: 5%;
+    height: 5px;
     background-color: #141418;
     text-align: center;
     margin-left: -1%;
+}
+
+#footer-texto {
+    padding: 0;
 }
